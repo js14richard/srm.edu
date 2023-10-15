@@ -1,0 +1,792 @@
+/* Stylesheet By - Siril Richard */
+
+* {
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width:1366px;
+    overflow-x: none;
+}
+
+ /*************** Back to top arrow ****************/
+ .up-arrow .fa{
+    font-size: 30px;
+    position:fixed;
+    bottom:15px;
+    right:15px;
+    padding:5px;
+    color:#2d0ba8;
+    z-index:1;
+    visibility:hidden;
+    transition: visibility 1.5s;
+
+}
+
+/******************************** Header syling starts here ***********************/
+
+.header {
+    position:relative;
+    margin-top:10px;
+    padding-bottom:10px;
+}
+.header h1 {
+    color:#eb0808;
+    font-family:Clarendon-Regular;
+    text-transform:uppercase;
+    font-weight:1000px;
+    text-align:center;
+    letter-spacing: 2px;
+}
+.header h2 {
+    margin-top:5px;
+    color:#2626ad;
+    font-family:Clarendon-Regular;
+    text-transform:uppercase;
+    text-align:center;
+
+}
+/*************** header social icons styling *****************/
+
+.header ul {
+    font-size:30px;
+    position: absolute;
+    top:35px;
+    right:30px;
+}
+.header ul li {
+    list-style-type: none;
+    display: inline;
+    padding:7px;
+}
+.header .fb {
+    color:#3b5998;
+}
+.header .yt {
+    color:#c4302b;
+}
+.header .tw {
+    color:#00acee;
+}
+.header .insta {
+    color:#DD2A7B;
+}
+
+/**************** Logo Styling *******************/
+.logo {
+    position: absolute;
+    top:-18px;
+    left:50px;
+    z-index:5;
+}
+/**************************************** Header styling ends here **************************/
+/**************************************** Navbar styling starts here **************************/
+.navbar {
+    background-color:#eb0808;
+    text-align:center;
+    position:sticky;
+    top:0px;
+    z-index:3; 
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display:inline-block;
+    padding:17px 0 17px 0;
+    background-color:#eb0808;
+    transition:background-color 0.3s;    
+}
+.navbar ul li a {
+    text-decoration:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size:20px;
+    padding:17px 20px;
+
+    
+}
+.navbar ul li:hover {
+    background-color:#2626ad;
+    text-decoration:underline;
+    text-decoration-color:#ffffff;
+    text-decoration-thickness: 2px;
+    transition:background-color 0.3s;
+
+
+}
+/**************************************** Navbar styling ends here **************************/
+
+/*--************************************Intro image section starts here******************************/
+.intro-image {
+    position:relative;
+}
+/*
+.intro-text {
+    font-family:BAMINI-Tamil25;
+    color:yellow;
+    font-size:36px;
+    font-weight:bold;
+    position: absolute;
+    top:160px;
+    left:60px;
+    line-height: 65px;
+    text-align:center;
+}
+
+.intro-text2 {
+    font-family:BAMINI-Tamil25;
+    color:yellow;
+    font-size:30px;
+    font-weight:bold;
+    position: absolute;
+    top:330px;
+    left:200px;
+}
+.symbol{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
+.intro-text {
+    font-family:cooper-black;
+    font-size:50px;
+    font-weight: bold;
+    color:rgb(238, 234, 10);
+    position: absolute;
+    top:140px;
+    left:120px;
+    line-height:60px;
+    letter-spacing:3px;
+    text-align:center;
+}
+.twelve {
+    font-family:BAMINI-Tamil25;
+    color:white;
+    font-size:28px;
+    position:absolute;
+    top:400px;
+    font-weight: bold;
+    left:70px;
+    
+}
+/*--************************************Intro image section ends here******************************/ 
+
+.contents-of-page:hover .up-arrow .fa {
+    visibility:visible;
+}
+
+/*--************************************About Us section starts here ******************************/
+.about-us {
+    margin-top:70px;
+    background-image: url(../images/about-us-bg.jpg);
+    background-size:cover;   
+}
+.about-us i {
+    color:#ffa500;
+    font-size:50px;
+}
+.about-us h1 {
+    font-family:BAMINI-Tamil25;
+    font-weight:bolder;
+    color:#2626ad;
+    margin-top:10px;
+    margin-left:70px;
+    text-align:center;
+    float:left; 
+}
+.about-us p {
+    font-size:25px;
+    font-family:BAMINI-Tamil25;
+    text-align:justify;
+    margin-right:40px;
+    margin-left:350px;
+    line-height: 40px;
+}
+.about-us .num {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mission {
+    margin-top:120px;
+    position:relative;
+}
+
+.mission span {
+    font-size:25px;
+    font-family:BAMINI-Tamil25;
+    margin-right:320px;
+    line-height:40px;
+    margin-left:50px;
+    text-align:justify;
+    display: inline-block;  
+}
+.mission .vision {
+    float:right;
+    font-size:32px;
+    color:#2626ad;
+    font-weight:bold;
+    position:absolute;
+    top:5px;
+    left:1080px;
+} 
+.vision img {
+    margin-left:50px;
+}
+.moto {
+    color:#2626ad;
+}
+.mission .sym {
+    font-family:arial;
+}
+.tceds {
+    text-align:center;
+    margin-top:70px;
+}
+.tceds .text {
+    font-size:32px;
+    font-family:Clarendon-Regular;
+    color:#2626ad;
+    font-weight:bold;
+    
+    
+}
+.tceds #tceds-tamil {
+    font-family:BAMINI-Tamil25;
+    font-weight:bold;
+}
+
+.tceds-description {
+    font-size: 25px;
+    font-family: BAMINI-Tamil25;
+    margin-right: 50px;
+    line-height: 40px;
+    margin-left: 50px;
+    margin-top:15px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.tceds-english {
+    font-family:arial;
+}
+
+/*--************************************About Us section ends here ******************************/
+
+/*--************************************ Campus information starts here ******************************/
+.campus-info {
+    position:relative;
+}
+.campus-info:hover .up-arrow .fa{
+    visibility:visible;
+}
+.gingee-fort {
+    opacity:0.1;
+  }
+.campus-title {
+    font-family:BAMINI-Tamil25;
+    color:#2626ad;
+    text-align:center;
+    float:left;
+    font-size:32px;
+    margin-top:70px;
+    margin-left:50px; 
+    position:absolute;
+    top:150px; 
+}
+.campus-info i {
+    font-size:75px;
+    color:#ffa500;
+}
+
+.campus-text {
+    font-size: 27px;
+    font-family:BAMINI-Tamil25;
+    color:black;
+    font-weight:500;
+    line-height:40px;  
+}
+
+/************************** Campus Information Ends here *******************/
+
+/********************** Course Info starts here ************************/ 
+
+.course-info {
+    margin-top:10px;
+}
+.course-info:hover~.up-arrow {
+    visibility: visible;
+}
+.course-infos {
+    float:left;
+    padding:50px;
+    margin-left:80px;
+}
+.course-number {
+    color:#2626ad;
+    font-size:80px;
+    font-family:Clarendon-Regular;
+}
+.course-infos p {
+    font-size:18px;
+    text-transform: uppercase;
+    margin-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/********************** Course Info ends here ************************/
+
+/********************** Special features starts here ************************/
+
+.special-features {
+    padding-top:280px;
+}
+.special-features:hover~.up-arrow {
+    visibility: visible;
+}
+.special-features h1 {
+    float:right;
+    margin-top:60px;
+    font-size:40px;
+    font-family:BAMINI-Tamil25;
+    color:#2626ad;
+}
+.features-list {
+    font-size:20px;
+    color:black;
+    font-weight:400;
+    margin-right:80px;
+    margin-top:35px;
+} 
+.features-list li {
+    list-style-type:none;
+    line-height: 45px;
+}   
+.features-list li span {
+    font-family:Arial, Helvetica, sans-serif;    
+}
+
+    /********************** Special features  images starts here ************************/
+.gallery-features {
+    margin-top:65px; 
+    overflow:hidden;
+}
+.row-1 {
+    float:left;
+    padding:35px 50px; 
+    margin-left:20px;
+}
+.row-1 img {
+    height:220px;
+    width:320px;   
+}
+.description {
+    text-align:center;
+    color:#2626ad;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size:22px;
+    text-align:left;
+    padding-bottom:25px;
+}
+    
+/********************** Special features  images ends here ************************/
+
+    /******************************* View Courses Section starts here *******************************/
+    .view-courses {
+        margin-top:60px;
+        background-color:#bce0f8;
+        height:400px;
+    }
+    .view-courses img{ 
+       float:right;
+       margin-right:15px;
+       margin-top:50px;  
+    }
+    
+ .view-courses-text{
+        margin-left:32px;
+        margin-top:20px;
+        display:inline-block;
+        color:#181616;
+    }
+    .view-courses-text-eng{
+        font-family: Roboto-bold;
+        font-size: 47px;
+        font-weight: bold;
+    }
+    .view-courses-text-tam {
+        font-family:BAMINI-Tamil25;
+        font-size: 47px;
+        font-weight:bold;
+    }
+    .view-courses-link a {
+        text-decoration:none;
+        font-family:Roboto-bold;
+        font-size:20px;
+        padding:21px;
+        color:white;
+        background-color:#141313;
+    }
+    .view-courses-link a:hover {
+        background-color:#11118b;
+        transition:background-color 0.5s;
+    }
+    .view-courses-link i {
+        margin-left:20px;
+        margin-top:5px;  
+    }
+    .view-courses-link {
+        margin-left:520px;
+        margin-top:80px;
+    }
+    
+    /******************************* View Courses Section ends here *******************************/
+
+ /******************************* Address bar section starts here *******************************/
+ .address-section {
+     background-color:#252323;
+     height:525px;
+     padding-top:20px;
+ }
+ .address-section:hover~.up-arrow{
+    visibility: hidden;
+ }
+ .address-map {
+     float:right;
+     margin-top:70px;
+     margin-right:70px;
+ }
+.address-landmark {
+     font-family:Arial, Helvetica, sans-serif;
+     font-size:20px;
+     color:#ffffff;
+     padding-top:70px;
+     line-height:35px;
+     margin-left:45px;
+ }
+ .address-contact {
+    font-family:Arial, Helvetica, sans-serif;
+     font-size:20px;
+     color:#ffffff;
+     margin-top:-95px;
+     margin-left:45px;
+     line-height:35px;
+ }
+.address-contact a {
+    color:white;
+    text-decoration:none;
+}
+.address-contact a:hover {
+    color:#4fe7ec;
+}
+.address-contact .fa {
+    color:white;
+    font-size:20px;
+}
+ /***************************** Footer social icons styling starts here ******************/ 
+
+.footer-social-icons{
+    display: inline-block;
+    margin-left:525px;
+    margin-top:-130px;
+}
+.footer-social-icons li {
+    list-style:none;
+    padding:13px;
+}
+.footer-social-icons li a {
+    font-size: 35px;
+    color:white;
+}
+.footer-social-icons .fb:hover {
+    color:#3b5998;
+}
+.footer-social-icons .yt:hover {
+    color:#c4302b;
+}
+.footer-social-icons .tw:hover{
+    color:#00acee;
+}
+.footer-social-icons .insta:hover{
+    color:#DD2A7B;
+}
+
+ /******************************* Address bar section ends here *******************************/
+
+ .footer{
+    text-align:center;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:500px;
+    font-size: 18px;
+ }
+ .footer-text-1{
+    border-right:2px solid black;
+ }
+ .footer-text-2{
+     margin-left:10px;
+ }
+ .footer-text-2 a {
+     color:#be1e1e;
+     font-size:19px;
+     text-decoration:none;
+ }
+
+ /************************************************************* Index Page Ends Here ************************/
+
+  /************************************************************* Courses Page Starts Here ************************/
+  .courses-bg-image {
+      background-image: url(../images/couses-background.jpg);
+      background-size:cover;
+      background-repeat:none;
+      height:300px;
+  }
+.courses-bg-image-text {
+    background-color:#2626ad;
+    text-align:center;
+    height:250px;
+    padding:80px;
+    font-size:52px;
+    float:left;
+    font-family:Roboto-bold;
+    color:white;
+    margin-top:170px;
+    margin-left:30px;
+}
+.courses-bg-image-text-sub {
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/******************************* Course List starts */
+
+.course-list{
+    margin-top:350px;
+    margin-left:30px;
+    width:46%;
+}
+.course-list-items {
+    text-align: center;
+    border-collapse: collapse;
+    border:3px solid #ad2626;
+}
+.course-list-items th {
+    border:0.5px solid #ad2626;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:25px;
+    color: #ffffff;
+    background-color: #f65b2c;
+    transition:1s;
+}
+.course-list-items th:hover {
+    background-color:#2626ad;
+}
+
+.course-list-items th a{
+    color:white;
+    padding:20px;
+    text-align:center;
+    text-decoration:none;
+}
+ 
+/******************************* Course List Ends here */
+
+/********************* Course syllabus frame starts here *********************/
+
+.course-syllabus-frame {
+    height:450px;
+    width:550px;
+    margin-right:50px;
+    float:right;
+    overflow-y:none;
+    border:2px solid red;
+    margin-top:-400px;
+}
+
+/********************* Course syllabus frame ends here *********************/
+
+/*******************************Image slider starts here *******************************/
+
+.image-slider {
+    height:50px;
+    margin-top:-520px;
+}
+.image-slider .row-1 {
+    overflow-x:visible;
+}
+.image-slider .description{
+    font-size:18px;
+}
+.image-slider img {
+    height:130px;
+    width:190px;   
+}
+
+/******************************* Image slider starts ends *******************************/
+
+/******************************* Apply Now Section starts here *******************************/
+.apply-now {
+    margin-top:280px;
+    background-color:#bce0f8;
+    height:400px;
+}
+.apply-now img{ 
+   float:right;
+   margin-right:70px;
+   margin-top:50px;
+}
+.apply-now-text-eng {
+    font-family:Roboto-bold;
+    font-size:43px;
+    font-weight:bold;
+    color:#242121;
+}
+.apply-now-text-tam {
+    font-family:BAMINI-Tamil25;
+    font-size:46px;
+    font-weight:bold;
+    color:#242121;
+}
+.apply-now-text{
+    margin-left:25px;
+    margin-top:25px;
+    display:inline-block;
+}
+.apply-link a {
+    text-decoration:none;
+    font-family:Roboto-bold;
+    font-size:20px;
+    padding:23px;
+    color:white;
+    background-color:#141313;
+}
+.apply-link a:hover {
+    background-color:#11118b;
+    transition:background-color 0.5s;
+}
+.apply-link i {
+    margin-left:20px;
+    margin-top:5px;  
+}
+.apply-link {
+    margin-left:490px;
+    margin-top:30px;
+}
+
+/******************************* Apply Now Section ends here *******************************/
+
+/************************************************************* Courses Page Ends Here ************************/
+
+
+
+/************************************************************* Application Page Starts Here ************************/
+
+.application-form {
+    margin-top:50px;
+    margin-left:35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#221e1e;
+    width:60%;
+
+    
+}
+.application-form p {
+    margin-top:10px;
+}
+.req-feild {
+    color:red;
+}
+
+/********* FORM STYLING STARTS HERE *********/
+
+.form-feild-label{
+    margin-top:25px;
+    margin-left:85px;
+}
+.form-feild-label label:hover {
+    cursor: pointer;
+}
+.form-input-feild{
+    margin-top:6px;
+    height:40px;
+    padding:5px;
+    width:100%;
+    border:1px solid #e0d8d8;
+    background-color:#f8f6f6f6;
+}
+
+.application-fee{
+    margin-top:17px;
+    margin-left:80px;
+    width:80%;
+}
+.application-fee p {
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.fee-tam{
+    font-family:BAMINI-Tamil25;
+    font-size:15px;
+}
+.frm-sbmt{
+    cursor:pointer;
+    padding:6px;
+    font-size:20px;
+    border:1px solid grey;
+}
+
+#yt-subscribe{
+    background-color:#f32828;
+    transition: all 0.5s;
+}
+#yt-subscribe:hover{
+    background-color:#f14444;
+    transition: all 0.5s;
+}
+
+
+
+/**************************************** Application Page Ends Here ****************************/
+
+
+/**************************************** Contact Page starts Here ****************************/
+
+.cnt-adrs{
+    margin-top:230px;
+    line-height: 25px;
+    margin-left:105px;
+    font-style: normal;   
+    font-family:calibri;  
+    font-size:18px;
+}
+.contact-form h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form{
+    margin-left:32%;
+    margin-top:-130px;
+    margin-bottom: 50px;
+}
+.cnt-feild-label{
+    margin-top:25px;
+    
+}
+.cnt-feild-label label:hover {
+    cursor: pointer;
+}
+.cnt-input-feild{
+    margin-top:6px;
+    height:40px;
+    padding:5px;
+    width:80%;
+    border:1px solid #e0d8d8;
+    background-color:#f8f6f6f6;
+}
+.cnt-sbmt{
+    padding:6px;
+    font-size:20px;
+    border:1px solid grey;
+    transition:all 0.5s;
+    cursor:pointer;
+}
